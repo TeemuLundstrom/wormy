@@ -6,14 +6,14 @@ def print_game_over(points):
     print("The worm died :(")
     print("Points: " + str(points))
     print()
-    time.sleep(1)
+    sleep(1)
 
 
 def print_game_won(points):
     print("Perfect game!")
     print("Points: " + str(points))
     print()
-    time.sleep(1)
+    sleep(1)
 
     
 def play(size,update_time):
