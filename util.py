@@ -122,7 +122,7 @@ def ask_command():
     # Asks what to do after a game finishes
     print_options()
     command = input(": ")
-    if command not in ("1","2","3"):
+    while command not in ("1","2","3"):
         print("Invalid command")
         command = input(": ")
 
