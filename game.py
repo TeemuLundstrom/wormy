@@ -52,6 +52,6 @@ def play(size,update_time):
             worm.insert(1,apple) 
             apple = util.apple_rnd_cord(worm,size)
         
-        time.sleep(update_time)
+        sleep(update_time)
 
 
