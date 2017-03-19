@@ -1,10 +1,10 @@
 from util import ask_settings, ask_command
-import game
+from game import play
 
 (size,update_time) = ask_settings()
 
 while True:
-    game.play(size,update_time)
+    play(size,update_time)
     command = ask_command()
 
     # If command == "1" we play again with same settings
