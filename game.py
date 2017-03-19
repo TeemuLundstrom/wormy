@@ -1,6 +1,6 @@
 import util
 import ai as AI
-import time
+from time import sleep
 
 def print_game_over(points):
     print("The worm died :(")
