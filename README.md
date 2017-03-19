@@ -1,7 +1,7 @@
 # wormy
 A simple snake game with A.I. that plays on its own.
 
-There are no graphics in the game. The game is printed frame by frame as text.
+There are no graphics in the game. The picture is printed frame by frame as text.
 If the update time is too fast, or if the size of the board is too big for the terminal, it might look odd.
 
 All you need is python 3 to run this.
